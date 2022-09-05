@@ -1,0 +1,40 @@
+body{
+ overflow: hidden;
+}
+/* color palette */
+:root{
+ --skin:#E0AC69;
+ --background: rgba(244, 15, 15, 0.15);
+}
+
+/* background */
+#boy{
+ width: 80vmin;
+ height: 80vmin;
+ background: var(--background);
+ background-image: repeating-linear-gradient(#0000 0 9.5%, #0002 10%),
+ repeating-linear-gradient(to left, #0000 0 9.5%, #0002 10%);
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+#boy div,
+#boy div.before,
+#boy div.after{
+ position: absolute;
+ content: "";
+ display: block;
+}
+
+/* face */
+.face{
+ width: 40%;
+ height: 50%;
+ background: var(--skin);
+ left: 50%;
+ top: 15%;
+ transform: translate(-50%);
+ border-radius: 100% / 80% 80% 130% 130%;
+}
