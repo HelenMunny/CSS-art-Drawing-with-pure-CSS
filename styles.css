@@ -150,7 +150,7 @@ body{
  border: 0.5vmin solid var(--dark-gray);
  border-radius: 100% / 40% 60% 100% 120%;
  top: 35%;
- left: 25%;
+ left: 26%;
  z-index: -1;
  rotate: -20deg;
 }
@@ -162,7 +162,7 @@ body{
  border: 0.5vmin solid var(--dark-gray);
  border-radius: 100% / 60% 40% 120% 100%;
  top: 35%;
- left: 63%;
+ left: 62%;
  z-index: -1;
  rotate: 20deg;
 }
@@ -236,4 +236,17 @@ body{
  15vmin 10vmin 0 1vmin,
  15vmin 18vmin 0 1vmin;
  z-index: -2;
+}
+
+/* neck */
+.neck{
+ width: 20%;
+ height: 25%;
+ background: var(--skin);
+ top: 55%;
+ left: 50%;
+ transform: translate(-50%);
+ z-index: -2;
+ border: 0.6vmin solid var(--dark-gray);
+ border-bottom: 0;
 }
