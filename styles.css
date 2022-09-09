@@ -258,7 +258,7 @@
 /* neck */
 .neck{
  width: 20%;
- height: 19%;
+ height: 18%;
  background: var(--skin);
  top: 55%;
  left: 50%;
@@ -278,5 +278,5 @@
  border-bottom: 0;
  z-index: -3; 
  background-image: 
- radial-gradient(circle at 50% -20%, var(--skin) 30%, var(--dark-gray) 0 33%, transparent 0);
+ radial-gradient(circle at 50% -20%, var(--skin) 30%, var(--dark-gray) 0 32%, transparent 0);
 }
